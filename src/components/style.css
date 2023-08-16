@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Sidebar container */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2DE181;
+    padding-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Brand name styling */
+  .brand-name {
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  
+  /* Horizontal line styling */
+  hr {
+    margin: 10px 0;
+  }
+  
+  /* List item styling */
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Icon styling */
+  .list-group-item svg {
+    margin-right: 8px;
+  }
+  
+  /* Icon color */
+  .list-group-item svg {
+    fill: #007bff;
+  }
+  
+  /* Active link style (you can add this class dynamically using React Router) */
+  .active-link {
+    background-color: #f5f5f5;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
